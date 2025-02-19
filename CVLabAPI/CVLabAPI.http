@@ -1,0 +1,6 @@
+@CVLabAPI_HostAddress = http://localhost:5293
+
+GET {{CVLabAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
