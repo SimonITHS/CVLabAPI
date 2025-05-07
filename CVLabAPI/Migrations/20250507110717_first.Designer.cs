@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CVLabAPI.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250219134218_InitialMigration")]
-    partial class InitialMigration
+    [Migration("20250507110717_first")]
+    partial class first
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
